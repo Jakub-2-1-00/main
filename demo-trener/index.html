@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trener personalny — plan, forma, efekty</title>
+  <meta name="description" content="Treningi personalne i plan działania dopasowany do Ciebie. Konsultacja, pakiety, szybki kontakt." />
+  <style>
+    body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;background:#0b0f14;color:#e8eef7}
+    .wrap{max-width:980px;margin:0 auto;padding:28px 16px}
+    .hero{border:1px solid #1c2940;background:linear-gradient(135deg,#111824,#0f1724);border-radius:18px;padding:18px}
+    h1{margin:0 0 8px;font-size:34px}
+    p{margin:10px 0;color:#c9d6ea}
+    .pill{display:inline-block;border:1px solid #223558;background:#152338;color:#cfe1ff;border-radius:999px;padding:6px 10px;font-size:13px;margin:6px 6px 0 0}
+    .btn{display:inline-block;background:#2b6cff;color:#fff;text-decoration:none;padding:10px 14px;border-radius:12px;font-weight:700}
+    .btn2{display:inline-block;background:#152338;border:1px solid #223558;color:#cfe1ff;text-decoration:none;padding:10px 14px;border-radius:12px;font-weight:700}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-top:12px}
+    .card{border:1px solid #1c2940;background:#111824;border-radius:16px;padding:16px}
+    .muted{color:#98a9c6;font-size:13px}
+    .line{height:1px;background:#1c2940;margin:16px 0}
+    ul{margin:8px 0 0 18px}
+    li{margin:6px 0;color:#c9d6ea}
+    .badge{font-weight:800;color:#e8eef7}
+    .two{display:grid;grid-template-columns:1.2fr .8fr;gap:12px}
+    @media (max-width:820px){.two{grid-template-columns:1fr}}
+    .small{font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Trening personalny bez chaosu</h1>
+      <p>Zaczynamy od konkretu: cel, analiza, plan. Potem robimy robotę. Bez magii — z systemem.</p>
+      <div>
+        <span class="pill">Redukcja</span>
+        <span class="pill">Masa</span>
+        <span class="pill">Siła</span>
+        <span class="pill">Powrót do formy</span>
+      </div>
+      <div style="margin-top:12px">
+        <a class="btn" href="#konsultacja">Umów konsultację</a>
+        <a class="btn2" href="#pakiety">Zobacz pakiety</a>
+      </div>
+    </div>
+
+    <div class="two" style="margin-top:12px">
+      <div class="card">
+        <h2 style="margin:0 0 6px">Jak to wygląda?</h2>
+        <p class="small">Krótki proces, który daje efekty, bo jest prosty do utrzymania.</p>
+        <ul>
+          <li><span class="badge">Krok 1:</span> konsultacja (cele, zdrowie, dostępny czas)</li>
+          <li><span class="badge">Krok 2:</span> plan treningowy + sugestie żywieniowe</li>
+          <li><span class="badge">Krok 3:</span> treningi i monitorowanie postępów</li>
+          <li><span class="badge">Krok 4:</span> korekty planu co tydzień</li>
+        </ul>
+      </div>
+      <div class="card" id="konsultacja">
+        <h2 style="margin:0 0 6px">Szybki kontakt</h2>
+        <p class="muted">Wstaw swoje dane w gotowcu klienta.</p>
+        <p><b>Tel:</b> 000 000 000<br><b>Miasto:</b> (tu wpisz)</p>
+        <p class="muted">Najlepiej napisz: cel + ile dni w tygodniu + sprzęt (siłownia/dom).</p>
+        <a class="btn" href="#">Wyślij zapytanie</a>
+      </div>
+    </div>
+
+    <div class="grid" id="pakiety">
+      <div class="card">
+        <h2 style="margin:0 0 6px">Start</h2>
+        <p class="muted">Dla osób, które chcą wejść w rytm.</p>
+        <ul>
+          <li>2 treningi / tydzień</li>
+          <li>Plan na 4 tygodnie</li>
+          <li>1 korekta planu</li>
+        </ul>
+        <p><b>od 399 zł / mies.</b></p>
+      </div>
+      <div class="card">
+        <h2 style="margin:0 0 6px">Pro</h2>
+        <p class="muted">Najczęściej wybierany.</p>
+        <ul>
+          <li>3 treningi / tydzień</li>
+          <li>Plan + monitoring</li>
+          <li>Korekty co tydzień</li>
+        </ul>
+        <p><b>od 599 zł / mies.</b></p>
+      </div>
+      <div class="card">
+        <h2 style="margin:0 0 6px">Indywidualny</h2>
+        <p class="muted">Pod zawody albo trudny cel.</p>
+        <ul>
+          <li>4+ treningi / tydzień</li>
+          <li>Stały kontakt</li>
+          <li>Priorytetowe terminy</li>
+        </ul>
+        <p><b>od 899 zł / mies.</b></p>
+      </div>
+    </div>
+
+    <div class="line"></div>
+    <p class="muted"><a href="../" style="color:#cfe1ff;text-decoration:none">← wróć do portfolio</a></p>
+  </div>
+</body>
+</html>
