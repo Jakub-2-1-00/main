@@ -5,20 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfolio — strony + teksty sprzedażowe</title>
   <meta name="description" content="Strony internetowe i teksty sprzedażowe dla małych firm. Szybko, konkretnie, nastawione na zapytania od klientów." />
-
-  <!-- USTAWIA POPRAWNĄ BAZĘ DLA LINKÓW NA GITHUB PAGES: /Portfolio/ -->
-  <script>
-    (function () {
-      const repo = "Portfolio";
-      const host = location.host;
-      const isGhPages = host.endsWith("github.io");
-      const base = isGhPages ? `/${repo}/` : "/";
-      const el = document.createElement("base");
-      el.href = base;
-      document.head.appendChild(el);
-    })();
-  </script>
-
   <style>
     body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;line-height:1.5;background:#0b0f14;color:#e8eef7}
     .wrap{max-width:980px;margin:0 auto;padding:32px 16px}
@@ -43,7 +29,7 @@
       <div class="top">
         <div>
           <h1>Strony, które zbierają zapytania</h1>
-          <p>Robię proste strony wizytówkowe/landing page + <b>teksty sprzedażowe</b> (bez lania wody), żeby klient od razu wiedział: co robisz, ile to kosztuje i jak się skontaktować.</p>
+          <p>Robię proste strony wizytówkowe/landing page + <b>teksty sprzedażowe</b>, żeby klient od razu wiedział: co robisz, ile to kosztuje i jak się skontaktować.</p>
           <span class="tag">Copywriting</span>
           <span class="tag">Landing page</span>
           <span class="tag">Strona wizytówkowa</span>
@@ -63,35 +49,43 @@
         <li>Formularz + mail (żeby zapytania wpadały od razu)</li>
         <li>Podstawowe SEO (tytuł, opis, struktura nagłówków)</li>
       </ul>
-      <p class="muted">Startowo celuję w małe firmy lokalne: usługi, beauty, trening, remonty, transport.</p>
+      <p class="muted">Cel: małe firmy lokalne — usługi, beauty, trening, remonty, transport.</p>
 
       <h2>Przykładowe projekty (demo)</h2>
       <div class="grid">
         <div class="card">
           <h3 style="margin:0 0 6px">Hydraulik — landing</h3>
           <p class="muted">Szybki landing z cennikiem i CTA pod telefon / formularz.</p>
-          <a class="btn2" href="hydraulik/">Zobacz demo</a>
+          <a class="btn2" href="./hydraulik/">Zobacz demo</a>
         </div>
 
         <div class="card">
           <h3 style="margin:0 0 6px">Trener personalny — landing</h3>
           <p class="muted">Oferta + pakiety + zapis na konsultację.</p>
-          <a class="btn2" href="trener/">Zobacz demo</a>
+          <a class="btn2" href="./trener/">Zobacz demo</a>
         </div>
 
         <div class="card">
           <h3 style="margin:0 0 6px">Barber — wizytówka</h3>
-          <p class="muted">Godziny, usługi, dojazd, szybki kontakt.</p>
-          <a class="btn2" href="barber/">Zobacz demo</a>
+          <p class="muted">Godziny, usługi, szybki kontakt.</p>
+          <a class="btn2" href="./barber/">Zobacz demo</a>
         </div>
       </div>
 
       <div class="line"></div>
 
       <h2 id="kontakt">Kontakt</h2>
-      <p>Najprościej: napisz wiadomość i podaj branżę + miasto + co ma być na stronie.</p>
+      <p>Napisz wiadomość i podaj branżę + miasto + co ma być na stronie.</p>
+
       <p>
-        <a class="btn" href="frydrychj56@gmail.com">Napisz mail</a>
+        <a class="btn"
+           href="javascript:location.href='mailto:frydrychj56@gmail.com?subject=Strona%20internetowa%20+%20teksty'">
+           Napisz mail
+        </a>
+      </p>
+
+      <p class="muted">
+        Email: frydrychj56@gmail.com
       </p>
     </div>
 
